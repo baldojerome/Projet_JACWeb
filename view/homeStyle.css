@@ -1,0 +1,255 @@
+body{
+  font-family: arial, helvetica, sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  color: #5A7F84;
+  overflow-x: hidden;
+}
+.en-cours{
+  text-decoration: underline;
+}
+
+@media screen and (max-width:1024px) {
+  /*EVENTS*/
+  .itemev{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    padding: 1%;
+    margin: 2%;
+    background-color: #81afb6;
+    border-radius: 18px;
+  }
+  .itemev p{
+    padding-left: 1em;
+    flex: 5;
+  }
+  .itemev img{
+    flex: 1;
+  }
+  .itemev img:hover{
+    transform: scale(1.5);
+  }
+}
+@media screen and (max-width : 480px) {
+  /*HEADER*/
+  header {
+    text-align: center;
+    width: 100%;
+    height: 20vh;
+    margin: 0;
+    color: white;
+    background: url(img/banner.jpg);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+  }
+  /*HEADER*/
+  header h1{
+    font-size: 3em;
+  }
+  /*NAV*/
+  .item a{
+    font-size: 0.7em;
+  }
+  /*EVENTS*/
+  .itemev{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    padding: 1%;
+    margin: 2%;
+    background-color: #81afb6;
+    border-radius: 18px;
+  }
+  .itemev img:hover{
+    transform: scale(1.1);
+  }
+}
+/************************************************/
+
+
+/* HEADER */
+/************************************************/
+header {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  color: white;
+  background: url(img/banner.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1{
+  font-size: 5em;
+  margin : 0;
+  padding: 0;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+  transition: color 5s;
+}
+h1:hover{
+  transition: color 5s;
+  color: #C0AAAE;
+}
+
+
+/* NAV BAR */
+.container{
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+.item a{
+  text-decoration:inherit;
+  color: white;
+  font-weight: bold;
+}
+.item p{
+  background-color: #5A7F84;
+  border-radius: 18px;
+  padding: 0.8em 1em;
+}
+.item p:hover{
+  transform: scale(1.25);
+  background-color: #C0AAAE;
+}
+/************************************************/
+
+
+/* SECTION PRESENTATION */
+/************************************************/
+.presentation h2{
+  font-family: 'Oswald';
+  font-size: 2em;
+}
+.presentation_container{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.presentation img{
+  width: 35%;
+}
+.presentation #metro{
+  margin: 0% 3%;
+  border-radius: 18px;
+  width: 60%;
+}
+.presentation p{
+  margin: 5% 3%;
+  text-align: justify;
+}
+/************************************************/
+
+
+
+/* SECTION EVENTS */
+/************************************************/
+.events{
+  text-align: justify;
+}
+.events h2{
+  font-family: 'Oswald';
+  font-size: 2em;
+}
+.events img{
+  border-radius: 18px;
+  width: 100%;
+}
+.articles{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.itemev{
+  display: flex;
+  align-items: center;
+  width: 70%;
+  padding: 1%;
+  margin: 2%;
+  background-color: #81afb6;
+  border-radius: 18px;
+}
+
+.itemev p{
+  padding-left: 1em;
+  flex: 5;
+}
+.itemev img{
+  flex: 1;
+}
+
+.itemev img:hover{
+  transform: scale(1.5);
+}
+
+/************************************************/
+
+
+/* FOOTER */
+/************************************************/
+footer{
+  width: 100%;
+  margin-left: inherit;
+  margin-top: 3%;
+  background-color: #5A7F84;
+  color: white;
+  font-size: 0.9em;
+}
+
+/*FOOTER ADDRESSE*/
+.addresse{
+  padding-left: 2em;
+  padding-top: 1em;
+}
+.addresse h2{
+  font-size: 1.7em;
+  padding-bottom: 0;
+  transition: color 5s;
+}
+.addresse h2:hover{
+  transition: color 5s;
+  color: #C0AAAE;
+}
+
+/*FOOTER SOCIAL*/
+.social{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.sites{
+  padding: 0.5em 1em;
+  text-decoration: inherit;
+  color: inherit;
+}
+.sites:hover{
+  color: #C0AAAE;
+  text-decoration: underline;
+}
+
+/*FOOTER CREDITS*/
+.credits{
+  text-align: center;
+  padding-bottom: 1em;
+}
+.credits span{
+  color: #C0AAAE;
+}
+.credits a{
+  text-decoration: inherit;
+  color: inherit;
+}
+.credits a:hover{
+  color: #C0AAAE;
+  text-decoration: underline;
+}
+/************************************************/
